@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="SliderStyle.css">
+</head>
+<body>
+
+    <div class="slider-container">
+        <!-- Slides -->
+        <div class="slider">
+            <div class="slide active">
+                <img src="https://placeholder.com" alt="Slide 1">
+                <div class="slide-content">
+                    <span>QUALITY YOU CAN TRUST IN INDIA</span>
+                    <h1>Global Standards</h1>
+                    <p>Adhering to international quality standards to deliver safe and effective healthcare solutions.</p>
+                    <button class="btn">Get in Touch</button>
+                </div>
+            </div>
+            
+            <div class="slide">
+                <img src="https://placeholder.com" alt="Slide 2">
+                <div class="slide-content">
+                    <span>INNOVATIVE HEALTHCARE</span>
+                    <h1>Best Products</h1>
+                    <p>Providing the best quality pharmaceutical products across the country.</p>
+                    <button class="btn">Explore Now</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="prev-btn" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next-btn" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+
+
+
+    <script src="SliderJs.js"></script>
+</body>
+</html>
