@@ -2,10 +2,10 @@
     display: block;
     position: relative;
     width: 100%;
-    height:2000px;
+    height:1850px;
     min-height: 300px;
    padding-top: 40px;
-    text-align: center;
+     text-align: center; 
     background-color:rgb(175, 184, 189);
      box-sizing: border-box;
     
@@ -115,20 +115,21 @@
   }
 /* ProductCards */
   .collectionCardsContainer{
-     margin-top: 40PX;
-    margin-left: 40PX; 
+      margin-top: 40PX;
+    margin-left: 40PX;  
     
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    /* flex-direction: row; */
     gap:25px;
-   padding-bottom: 10px;
+    /* padding-bottom: 10px;  */
 }
 .collectionCard{
     width:300px;
-    height: 500px;
-    border-radius: 20px;
+    height: 440px;
+    border-radius: 30px;
      background-color:white;
+     
   
  }
 
@@ -138,75 +139,163 @@
 
    .text .productButton{
     border-radius: 20px;
-    margin-top: 20px;
-    padding: 5px;
-    font-size: 12px;
-    letter-spacing:1px;
-    color: #2AAA8A;
-   
+     margin-top: 20px; 
+    width: 250px;
+     padding: 5px; 
+     font-size: 12px;
+    letter-spacing:0.8px; 
+    color: royalblue;
+    
+    border:none;
    }
    .text .textP{
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 15px;
+    /* line-height: 1.7; */
     text-align: left;
-    padding-left: 30px;
-     color: #777;
+    padding-left: 25px;
+     /* color: #777; */
    }
-   .text .textH3{
-    text-align: left;
-    padding-left: 30px;
-    margin-top: 5px;
+   .text .textH33{
+     text-align: left; 
+     padding-left: 25px; 
+    margin-top: 5px; 
    }
 
-   .text .textH3:hover{
-    color: #2AAA8A ;
+   .text .textH33:hover{
+    color:green ;
    }
-   .text .textSpan{
-    color:  #2AAA8A;;
+   .text .textspan{
+    color:  black;
    }
-   .text .textH2{
-         text-align: left;
-    padding-left: 30px;
-    margin-top: 5px;
-    color: #2AAA8A ;
+   .text .textH3{
+          text-align: left;
+     padding-left: 25px;
+    margin-top: 5px;  
+    color: rgb(255, 165, 47);
    }
    .text .textButtonView{
     border-radius: 20px;
     width: 240px;
     height: 40px;
-    background-color: #2AAA8A;
+    background-color: rgb(255, 165, 47);
     color: white;
     border: none;
-    margin-bottom: 8px;
+     margin-bottom: 8px; 
     cursor: pointer;
+    border:none;
    }
    .text a{
     color: white;
    } 
    .text .buttonWhatApp{
-    width: 80px;
-    height: 38px;
+    width: 82px;
+    height: 32px;
     border-radius: 20px;
-    background-color: green;
+    background-color: rgb(97, 194, 97);
     color: white;
     border: none;
     cursor: pointer;
    }
     .text .buttonEmail{
-    width: 80px;
-    height: 38px;
+    width: 82px;
+    height: 32px;
     border-radius: 20px;
-    background-color: blue;
+    background-color:rgb(99, 99, 231);
     color: white;
     border: none;
     cursor: pointer;
    }
     .text .buttonEnquiry{
-    width: 80px;
-    height: 38px;
+    width: 82px;
+    height: 32px;
     border-radius: 20px;
-    background-color: yellow;
-    color: #2AAA8A;
+    background-color:goldenrod;
+    color: white;
     border: none;
     cursor: pointer;
+   }
+
+   .collectionCard .image1 img{
+     width: 100%;
+     min-width: 160;
+     height: 150px;
+    border-top-left-radius:30px;
+    border-top-right-radius: 30px;
+    /* border-radius: 50px; */
+    object-fit: cover;
+    display: block; 
+     border: none; 
+  outline: none;
+   box-shadow: none;
+ 
+}
+
+   /* About Section */
+   .aboutSection{
+    background-color:rgb(224, 217, 217);
+   }
+   .aboutButton{
+    color: blue;
+    border-radius: 20px;
+  margin-top: 120px;
+  margin-left: 120px;
+    width: 130px;
+    height: 32px;
+    background-color: rgb(182, 174, 179);
+    border: none;
+
+   }
+   .aboutSpan{
+    color:blue;
+   }
+
+   .aboutH1{
+    margin-left: 120px;
+    font-size: 42px;
+   }
+   .aboutP{
+     margin-left: 120px;
+     font-size: 20px;
+   }
+   .aboutImage {
+    background-color: antiquewhite;
+   }
+   
+   .aboutBtn1{
+    margin-left: 120px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+   }
+   .aboutBtn2{
+     width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+  
+   }
+   .aboutBtn3{
+    margin-left: 120px;
+     width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+   }
+   .aboutBtn4{
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+   }
+
+   .aboutBtnLearn{
+    margin-left: 120px;
+   }
+   .aboutBtnContact{
+    margin-left: 120px;
    }
